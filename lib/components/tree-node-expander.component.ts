@@ -5,8 +5,8 @@ import { TreeNode } from '../models/tree-node.model';
   selector: 'TreeNodeExpander',
   encapsulation: ViewEncapsulation.None,
   styles: [
-    '.toggle-children-wrapper-expanded .toggle-children { transform: rotate(90deg) }',
-    '.toggle-children-wrapper-collapsed .toggle-children { transform: rotate(0); }',
+    '.toggle-children-wrapper-expanded .toggle-children { transform: rotate(90deg); transition-duration: 0.3s; }',
+    '.toggle-children-wrapper-collapsed .toggle-children { transform: rotate(0); transition-duration: 0.3s; }',
     `.toggle-children-wrapper {
       padding: 2px 3px 5px 1px;
     }`,
